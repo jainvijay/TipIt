@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F3B92DA19C1396100F5F205 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B92D819C1396100F5F205 /* SettingsViewController.m */; };
+		3F3B92DB19C1396100F5F205 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3B92D919C1396100F5F205 /* SettingsViewController.xib */; };
+		3FADE47619B961F1007AA1A8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FADE47419B961F1007AA1A8 /* MainViewController.m */; };
+		3FADE47719B961F1007AA1A8 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FADE47519B961F1007AA1A8 /* MainViewController.xib */; };
 		3FB56FE219B952D10011338D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB56FE119B952D10011338D /* UIKit.framework */; };
 		3FB56FE419B952D10011338D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB56FE319B952D10011338D /* Foundation.framework */; };
 		3FB56FE619B952D10011338D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB56FE519B952D10011338D /* CoreGraphics.framework */; };
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F3B92D719C1396100F5F205 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		3F3B92D819C1396100F5F205 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		3F3B92D919C1396100F5F205 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		3FADE47319B961F1007AA1A8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3FADE47419B961F1007AA1A8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3FADE47519B961F1007AA1A8 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		3FB56FDE19B952D10011338D /* Objective-C Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB56FE119B952D10011338D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3FB56FE319B952D10011338D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -82,6 +92,12 @@
 		3FB56FD519B952D10011338D = {
 			isa = PBXGroup;
 			children = (
+				3FADE47319B961F1007AA1A8 /* MainViewController.h */,
+				3FADE47419B961F1007AA1A8 /* MainViewController.m */,
+				3F3B92D719C1396100F5F205 /* SettingsViewController.h */,
+				3F3B92D819C1396100F5F205 /* SettingsViewController.m */,
+				3F3B92D919C1396100F5F205 /* SettingsViewController.xib */,
+				3FADE47519B961F1007AA1A8 /* MainViewController.xib */,
 				3FB56FE719B952D10011338D /* Objective-C Example */,
 				3FB5700519B952D10011338D /* Objective-C ExampleTests */,
 				3FB56FE019B952D10011338D /* Frameworks */,
@@ -197,6 +213,7 @@
 		3FB56FD619B952D10011338D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Vijay Jain";
 			};
@@ -224,7 +241,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FB56FEC19B952D10011338D /* InfoPlist.strings in Resources */,
+				3F3B92DB19C1396100F5F205 /* SettingsViewController.xib in Resources */,
 				3FB56FF419B952D10011338D /* Default.png in Resources */,
+				3FADE47719B961F1007AA1A8 /* MainViewController.xib in Resources */,
 				3FB56FF619B952D10011338D /* Default@2x.png in Resources */,
 				3FB56FF819B952D10011338D /* Default-568h@2x.png in Resources */,
 			);
@@ -262,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FB56FEE19B952D10011338D /* main.m in Sources */,
+				3FADE47619B961F1007AA1A8 /* MainViewController.m in Sources */,
 				3FB56FF219B952D10011338D /* AppDelegate.m in Sources */,
+				3F3B92DA19C1396100F5F205 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +458,7 @@
 				3FB5701219B952D20011338D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FB5701319B952D20011338D /* Build configuration list for PBXNativeTarget "Objective-C ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +467,7 @@
 				3FB5701519B952D20011338D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
